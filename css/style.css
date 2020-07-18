@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body {
+  font-family: 'Nunito', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+.fullscreen-landing{
+  background: white url("../img/landing_page.jpg") no-repeat scroll center;
+  background-size: cover;
+  height: 100vh;
+}
+.overlay{
+  background-color: rgb(0, 0, 0,0.5);
+  height: 100vh;
+}
+.search-box{
+  height: 50px;
+  width: 500px;
+}
+
+.experiance-img{
+  border-radius: 200px;
+  border: none;
+}
+.experiance-img:hover{
+  box-shadow: 0 0 10px gray;
+}
+.subscribe-section{
+  background: white url('../img/landing_page.jpg') no-repeat scroll center;
+  background-size: cover;
+  color: white;
+}
+.subscribe-wrapper{
+  background-color: rgb(0, 0, 0,0.5);
+  height: 100%;
+}
+@media (max-width: 576) {
+  .search-box {
+    width: 300px;
+  }
+}
